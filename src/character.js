@@ -64,7 +64,7 @@ class Character {
 
       const loader = new FBXLoader(this._manager);
       loader.setPath(this._getPath());
-      loader.load("walk2.fbx", (a) => {
+      loader.load("walk.fbx", (a) => {
         _OnLoad("walk", a);
       });
       loader.load("run.fbx", (a) => {
